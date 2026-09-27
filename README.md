@@ -81,7 +81,8 @@ Administrator
 
 ### Issue Reporting
 <p align="center">
-  <img src="[docs/screenshots/report-issue.png](https://static.toiimg.com/thumb/msid-124793154,imgsize-87864,width-400,height-225,resizemode-72/sinkhole-reappears-motorists-suffer-on-perambur-road.jpg)" alt="PublicEye Issue Reporting" width="850">
+<img  src="https://github.com/user-attachments/assets/dc14f408-f839-4000-8a79-99bbdd0cc5fa" 
+ alt="PublicEye Issue Reporting" width="850">
 </p>
 
 ### Interactive Map
