@@ -14,7 +14,8 @@
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/dashboard.png" alt="PublicEye Dashboard" width="900">
+ <img src="https://github.com/user-attachments/assets/9c413178-7c79-4c1f-b4eb-cf2cf03494a1"
+ alt="PublicEye Dashboard" width="900">
 </p>
 
 <p align="center">
