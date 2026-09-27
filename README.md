@@ -71,7 +71,7 @@ Administrator
 
 ### Citizen Dashboard
 
-ADD CITIZEN DASHBOARD SCREENSHOT
+
 
 <p align="center">
   <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/95134aab-7dcc-4fdf-bd87-d05acb57efbb" 
