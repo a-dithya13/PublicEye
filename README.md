@@ -1,154 +1,74 @@
 # PublicEye
 
-PublicEye is a full-stack civic issue reporting and management system that enables citizens to report public infrastructure issues while allowing government authorities to assign, monitor, and resolve them efficiently.
+> A full-stack civic issue reporting and management platform for reporting, tracking, assigning, and resolving public infrastructure issues.
 
-The platform provides separate dashboards for Citizens, Officers, and Administrators, integrating interactive maps, image uploads, issue tracking, voting, and analytics to improve transparency in civic issue management.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express.js-API-000000?logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Mongoose-ODM-880000?logo=mongoose&logoColor=white" alt="Mongoose">
+  <img src="https://img.shields.io/badge/JWT-Authentication-000000?logo=jsonwebtokens" alt="JWT">
+  <img src="https://img.shields.io/badge/Leaflet-Maps-199900?logo=leaflet&logoColor=white" alt="Leaflet">
+  <img src="https://img.shields.io/badge/Recharts-Analytics-8884D8" alt="Recharts">
+</p>
 
----
+<p align="center">
+  <img src="docs/screenshots/dashboard.png" alt="PublicEye Dashboard" width="900">
+</p>
 
-## Features
+<p align="center">
+  <strong>Report. Track. Resolve.</strong>
+</p>
 
-### Citizen
-
-- Secure authentication
-- Report civic issues with images
-- Select issue location using an interactive map
-- Automatic reverse geocoding
-- Public voting on issues
-- Track issue status
-
-### Officer
-
-- View assigned issues
-- Update issue progress
-- Submit issue reports
-- Dashboard with analytics
-
-### Admin
-
-- Manage issues
-- Assign and reassign officers
-- Manage users
-- Review officer reports
-- View analytics dashboard
+<p align="center">
+  A role-based civic issue management system connecting citizens, officers, and administrators through a unified workflow.
+</p>
 
 ---
 
-## Tech Stack
+## Overview
 
-### Frontend
+PublicEye is a full-stack civic issue reporting and management platform designed to make public infrastructure complaints easier to submit, track, assign, and resolve.
 
-- React.js
-- React Router
-- Axios
-- Leaflet
-- OpenStreetMap
-- Recharts
-- CSS
+The system provides dedicated experiences for three roles:
 
-### Backend
-
-- Node.js
-- Express.js
-- JWT Authentication
-- bcrypt
-
-### Database
-
-- MongoDB
-- Mongoose
-
----
-
-## Project Structure
-
-```
-PublicEye
-│
-├── backend
-│   ├── config
-│   ├── controllers
-│   ├── issue-images
-│   ├── middleware
-│   ├── models
-│   ├── routes
-│   ├── uploads
-│   ├── utils
-│   ├── app.js
-│   └── package.json
-│
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── assets
-│   │   ├── components
-│   │   ├── constants
-│   │   ├── context
-│   │   ├── pages
-│   │   ├── services
-│   │   ├── styles
-│   │   ├── App.jsx
-│   │   └── index.js
-│   └── package.json
-│
-└── README.md
+```text
+Citizen
+   │
+   ├── Report civic issue
+   ├── Upload evidence
+   ├── Select location
+   └── Track progress
+   │
+   ▼
+Administrator
+   │
+   ├── Review issues
+   ├── Assign officers
+   ├── Manage users
+   └── Monitor analytics
+   │
+   ▼
+Officer
+   │
+   ├── View assigned issues
+   ├── Update progress
+   └── Submit resolution report
 ```
 
----
+<!--
+SCREENSHOT PLACEMENT
 
-## Installation
+Recommended repository structure:
 
-### Clone the repository
+docs/
+└── screenshots/
+    ├── dashboard.png
+    ├── citizen-dashboard.png
+    ├── report-issue.png
+    ├── officer-dashboard.png
+    └── admin-dashboard.png
 
-```bash
-git clone https://github.com/<username>/PublicEye.git
-cd PublicEye
-```
-
-### Backend
-
-```bash
-cd backend
-npm install
-```
-
-Create a `.env` file inside the backend directory.
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-GEOAPIFY_API_KEY=your_geoapify_key
-```
-
-Run the backend server.
-
-```bash
-npm run dev
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
----
-
-## Issue Workflow
-
-```
-Pending
-   ↓
-Assigned
-   ↓
-In Progress
-   ↓
-Resolved
-```
-
-Issues may also be marked as **Rejected**.
-
----
+Replace the image above with your strongest screenshot.
+-->
